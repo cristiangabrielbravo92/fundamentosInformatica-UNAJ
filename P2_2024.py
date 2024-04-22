@@ -1,3 +1,5 @@
+# VER LAS CONSIGNAS DE LOS EJERCICIOS EN EL ARCHIVO P2_2022.PDF
+
 """ Ejercicio 3
 num = int(input("ingrese un número: "))
 print("el triple del número es: ", 3*num)
@@ -83,4 +85,32 @@ print(producto3_nombre, ",", subtotal_producto3)
 print("Total:", total)
 """
 
-""" Ejercicio 12 """
+""" Ejercicio 12 
+lado = float(input("Ingrese el lado del cuadrado en metros: "))
+perimetro_cuadrado = lado*4
+area_cuadrado = lado ** 2
+print("El perímetro del cuadrado es ", perimetro_cuadrado, "metros",
+      "y su área es", area_cuadrado, "metros cuadrados.")
+"""
+
+""" Ejercicio 14 
+palabra1 = input('Ingrese una palabra: ')
+palabra2 = input('Ingrese una palabra: ')
+palabra3 = input('Ingrese una palabra: ')
+print("Las iniciales de su palabras son", palabra1[0], palabra2[0], palabra3[0])
+"""
+
+""" Ejercicio 14 alternativa 
+palabras = input("Ingrese un texto de 3 palabras: ")
+palabras_separadas = palabras.split()
+print("Las iniciales de su palabras son", palabras_separadas[0][0], palabras_separadas[1][0], palabras_separadas[2][0])
+"""
+
+
+""" Ejercicio 29 """
+n1 = 124.25
+n2 = "33.40"
+n2 = float(n2)
+division_entera = int( n1 // n2)
+print("Division entera:", division_entera)
+
