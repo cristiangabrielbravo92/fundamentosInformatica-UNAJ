@@ -107,10 +107,35 @@ print("Las iniciales de su palabras son", palabras_separadas[0][0], palabras_sep
 """
 
 
-""" Ejercicio 29 """
+""" Ejercicio 29 
 n1 = 124.25
 n2 = "33.40"
 n2 = float(n2)
 division_entera = int( n1 // n2)
 print("Division entera:", division_entera)
+"""
 
+""" Ejercicio 30
+palabras = input('Ingrese 5 palabras:  ')
+palabras_separadas = palabras.split()
+total_letras = len(palabras_separadas[0]) + len(palabras_separadas[1]) + len(palabras_separadas[2]) + len(palabras_separadas[3]) + len(palabras_separadas[4])
+print(total_letras)
+"""
+
+""" Ejercicio 31
+cuit = input("Ingrese su cuit con el formato xx-dni-x:  ")
+dni = cuit[3:-2]
+print(dni)
+"""
+
+""" Ejercicio 32 
+print(ord("A"))
+print(ord("a"))
+print(ord("0"))
+"""
+
+""" Ejercicio 33
+mail = input('Ingrese su email:  ')
+print("Nombre de usuario:", mail.split("@")[0])
+print("Dominio:", mail.split("@")[1])
+"""
